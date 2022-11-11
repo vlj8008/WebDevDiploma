@@ -1,0 +1,244 @@
+
+body{
+    margin: auto;
+
+}
+
+.nav-wrapper{
+    background-color: aqua;
+    padding: 5px;
+    width: 100%;
+    position:sticky;
+    top:0;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    z-index:1 ;
+}
+
+#icon{
+    max-width: 200px;
+
+}
+
+.nav-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items:stretch ;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-list li{
+display: inline;
+margin:0;
+padding-top: 26px;
+
+}
+
+.nav-list li a{
+    color: black;
+    text-decoration: none;
+    padding: 22px;
+}
+
+.employees{
+    margin-left: 2%;
+}
+
+.employee-list{
+    list-style: none;
+    padding-bottom: 100px;
+    display:inline-flex;
+    flex-wrap:wrap;
+    background-color: rgb(0, 174, 255);
+    border-style: hidden;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.employee-card{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    border-style: hidden;
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 3px #ccc;
+}
+
+.user-img{
+    float: left;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: #ccc;
+}
+
+.employment-details{
+    display: block;
+    float: right;
+    margin-left: 20px;
+}
+
+.interviews{
+    margin:1.5%;
+    width: 25%;
+    list-style: none;
+    background-color: antiquewhite;
+    border-style: hidden;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.list-item{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 3px #ccc;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+.accept-btn{
+    width: auto;
+    background-color: aquamarine;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1% 1% 0% 0%;
+    border-radius: 2px;
+}
+
+.reject-btn{
+    width: auto;
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 1% 1% 0% 0%;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+#employeeModal{
+    background-color: aquamarine;
+    width: 30%;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    position:absolute;
+    top:40%;
+    left:40%;
+}
+
+.modal-header{
+    border-radius: 0px;
+    background-color:#1b91db;
+}
+
+.modal-header-content{
+    font-size: 20px;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.modal-container{
+    padding-top: 20px;
+
+}
+
+#confirmBtn{
+    margin:30px;
+    float: right;
+}
+
+.name-format{
+    color:blueviolet;
+    font-weight: bold;
+}
+
+input{
+    width:50%;
+    padding: 12px,20px;
+    margin: 8px,0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+#confirmBtn{
+
+    width: auto;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #36bc65;
+
+}
+
+#interviewModal{
+    text-align: center;
+    width: 30%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    position: absolute;
+    top:40%;
+    left: 40%;
+    background-color: white;
+
+}
+
+#confirmIntBtn{
+    width: auto;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #36bc65;
+    margin: 30px;
+    float:right;
+    text-align: center;
+}
+
+.btn{
+    float: right;
+    background-color:#1b91db;
+    width: 18%;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right:2% ;
+    display: inline-block;
+    
+}
+
+
