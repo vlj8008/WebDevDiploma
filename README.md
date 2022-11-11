@@ -1,2 +1,5 @@
-# WebDevDiploma
- Code written during upskillist course on full stack web development
+## WebDevDiploma
+
+* HR application front end using plain JS, CSS and HTML
+
+
